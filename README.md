@@ -14,6 +14,10 @@ Con ayuda de un calibrador se establecen las mediciones de eslabon para cada art
 
 Los cuales se pueden apreciar en la siguiente figura.
 
+<p align="center">
+  <img src="imagenes/Diagrama.png"/>
+</p>
+
 ## Análisis DH
 A partir de esto se obtienen los parametros DH correspondientes
 
