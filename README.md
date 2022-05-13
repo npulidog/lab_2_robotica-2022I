@@ -166,3 +166,4 @@ q5 = [deg2rad([-90 45 -55 45 10)]];
 ```
 
 ## Video en Youtube
+[Robótica: Cinemática Directa - Phantom X - ROS](https://youtu.be/GdL3EysdHBM "Robótica: Cinemática Directa - Phantom X - ROSy")
