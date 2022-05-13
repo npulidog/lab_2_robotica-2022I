@@ -57,6 +57,11 @@ T4_3 = L(4).A(q4)
 MTH = simplify(T1_0*T2_1*T3_2*T4_3*Robot.tool)
 ```
 
+<p align="center">
+  <img src="imagenes/MTH.png"/>
+</p>
+
+
 ```Matlab
 % Posición 1
 p1 = deg2rad([0 60 -45 90]);
