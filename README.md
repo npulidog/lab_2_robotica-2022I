@@ -18,11 +18,10 @@ Los cuales se pueden apreciar en la siguiente figura.
 A partir de esto se obtienen los parametros DH correspondientes
 
 ## ROS
-Se realizó un script en Python bajo el nombre de "px_Teleopkey" que permite el movimiento entre posición objetivo y posición de home utilizando las teclas "D" y "A", permitiendo el movimiento independiente de articulaciones con el uso de las teclas "W" y "S".
+Se realizó un script en Python bajo el nombre de "[px_Teleopkey](https://github.com/npulidog/lab_2_robotica-2022I/blob/002867e4908d164e5845d1493e0cc6b904ace3ce/px_robot/scripts/px_Teleopkey.py "px_Teleopkey")" que permite el movimiento entre posición objetivo y posición de home utilizando las teclas "D" y "A", permitiendo el movimiento independiente de articulaciones con el uso de las teclas "W" y "S".
 
 ## Toolbox
 
 ## Conexion con Matlab
 
 ## Matlab + ROS + Toolbox
-
