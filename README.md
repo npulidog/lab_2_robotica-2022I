@@ -65,6 +65,7 @@ Robot.plot(p1, 'notiles', 'noname');
 <p align="center">
   <img src="imagenes/1.png"/>
 </p>
+
 ```Matlab
 % Posición 2
 p2 = deg2rad([45 -45 90 45]);
