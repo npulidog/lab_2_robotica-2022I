@@ -43,9 +43,9 @@ def deg2raw(input_list: list = [0,0,0,0,0], min_deg: int = -150, max_deg: int = 
 
 
 
-def main(goal_position: list = [30,45,-30,-60,150], home_position: list = [0,0,0,0,0]):
+def main(goal_position: list = [30,45,-30,-60,700], home_position: list = [0,0,0,0,0]):
 
-    motors_ids = [6,7,8,9,10]
+    motors_ids = [1,2,3,4,5]
     goal_position_raw = deg2raw(goal_position)
     home_position_raw = deg2raw(home_position)
     selected_link = "Waist"
@@ -143,33 +143,6 @@ def main(goal_position: list = [30,45,-30,-60,150], home_position: list = [0,0,0
             elif(key == "a"):
                 print("Moviendo a la posición HOME ...")
                 jointCommand('', motors_ids[4], 'Goal_Position', home_position_raw[4], 0.5)
-
-                
-
-
-
-def main2():
-
-
-    # Goal_Position (0,1023)
-    # Torque_Limit (0,1023)
-    jointCommand('', 1, 'Torque_Limit', 600, 0)
-    jointCommand('', 2, 'Torque_Limit', 400, 0)
-    jointCommand('', 3, 'Torque_Limit', 400, 0)
-    jointCommand('', 4, 'Torque_Limit', 400, 0)
-    jointCommand('', 4, 'Goal_Position', 512, 0.5)
-    jointCommand('', 3, 'Goal_Position', 512, 0.5)
-    time.sleep(0.5)
-    jointCommand('', 2, 'Goal_Position', 512, 0.5)
-    time.sleep(0.5)
-    jointCommand('', 1, 'Goal_Position', 512, 0.5)
-    jointCommand('', 4, 'Goal_Position', 300, 1)
-    time.sleep(0.2)
-    jointCommand('', 2, 'Goal_Position', 600, 1)
-    time.sleep(0.5)
-    jointCommand('', 3, 'Goal_Position', 300, 0.5)
-    jointCommand('', 1, 'Goal_Position', 512, 0.5)
-
 
 
 
